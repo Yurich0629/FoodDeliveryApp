@@ -25,6 +25,7 @@
 		B8BFF1862B7FBCE6004C0E2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BFF1852B7FBCE6004C0E2F /* ViewController.swift */; };
 		B8BFF18B2B7FBCE7004C0E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8BFF18A2B7FBCE7004C0E2F /* Assets.xcassets */; };
 		B8BFF18E2B7FBCE7004C0E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8BFF18C2B7FBCE7004C0E2F /* LaunchScreen.storyboard */; };
+		B8D912702B83661300216492 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D9126F2B83661300216492 /* UIFont+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		B8BFF18A2B7FBCE7004C0E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8BFF18D2B7FBCE7004C0E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8BFF18F2B7FBCE7004C0E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D9126F2B83661300216492 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		B88778772B82E42B008F7027 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B8D9126E2B8365DA00216492 /* Extensions */,
 				B88778782B82E44B008F7027 /* Fonts */,
 			);
 			path = Resources;
@@ -125,6 +128,14 @@
 				B8BFF18F2B7FBCE7004C0E2F /* Info.plist */,
 			);
 			path = FoodDeliveryApp;
+			sourceTree = "<group>";
+		};
+		B8D9126E2B8365DA00216492 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B8D9126F2B83661300216492 /* UIFont+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			files = (
 				B8BFF1862B7FBCE6004C0E2F /* ViewController.swift in Sources */,
 				B8BFF1822B7FBCE6004C0E2F /* AppDelegate.swift in Sources */,
+				B8D912702B83661300216492 /* UIFont+Extension.swift in Sources */,
 				B8BFF1842B7FBCE6004C0E2F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
