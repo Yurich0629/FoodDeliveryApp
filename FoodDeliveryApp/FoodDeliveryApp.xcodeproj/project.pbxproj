@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B841A4E22B842C3A0060F797 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841A4E12B842C3A0060F797 /* Coordinator.swift */; };
 		B88778A42B82E532008F7027 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88778972B82E532008F7027 /* Roboto-Medium.ttf */; };
 		B88778A52B82E532008F7027 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88778982B82E532008F7027 /* Roboto-Light.ttf */; };
 		B88778A62B82E532008F7027 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88778992B82E532008F7027 /* Roboto-Regular.ttf */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B841A4E12B842C3A0060F797 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		B88778972B82E532008F7027 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		B88778982B82E532008F7027 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		B88778992B82E532008F7027 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -67,6 +69,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B841A4DE2B842BAB0060F797 /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B841A4E02B842C090060F797 /* Coordinators */,
+				B841A4DF2B842BEE0060F797 /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		B841A4DF2B842BEE0060F797 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B841A4E02B842C090060F797 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				B841A4E12B842C3A0060F797 /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		B88778772B82E42B008F7027 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +150,7 @@
 		B8BFF1802B7FBCE6004C0E2F /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				B841A4DE2B842BAB0060F797 /* NavigationLayer */,
 				B88778772B82E42B008F7027 /* Resources */,
 				B8BFF1812B7FBCE6004C0E2F /* AppDelegate.swift */,
 				B8BFF1832B7FBCE6004C0E2F /* SceneDelegate.swift */,
@@ -233,6 +260,7 @@
 				B8D912782B837B3C00216492 /* AppColors.swift in Sources */,
 				B8BFF1842B7FBCE6004C0E2F /* SceneDelegate.swift in Sources */,
 				B8D912722B8379DB00216492 /* UIColor+Extension.swift in Sources */,
+				B841A4E22B842C3A0060F797 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
