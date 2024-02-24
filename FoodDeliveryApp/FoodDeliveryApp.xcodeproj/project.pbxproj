@@ -15,6 +15,8 @@
 		B841A4EC2B84436E0060F797 /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841A4EB2B84436E0060F797 /* ListCoordinator.swift */; };
 		B841A4EE2B8443BA0060F797 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841A4ED2B8443BA0060F797 /* ProfileCoordinator.swift */; };
 		B841A4F02B8444100060F797 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841A4EF2B8444100060F797 /* TabBarController.swift */; };
+		B841A4F42B848BC50060F797 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841A4F32B848BC50060F797 /* OnboardingViewController.swift */; };
+		B841A4F62B848C4E0060F797 /* OnboardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841A4F52B848C4E0060F797 /* OnboardingViewPresenter.swift */; };
 		B88778A42B82E532008F7027 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88778972B82E532008F7027 /* Roboto-Medium.ttf */; };
 		B88778A52B82E532008F7027 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88778982B82E532008F7027 /* Roboto-Light.ttf */; };
 		B88778A62B82E532008F7027 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88778992B82E532008F7027 /* Roboto-Regular.ttf */; };
@@ -47,6 +49,8 @@
 		B841A4EB2B84436E0060F797 /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
 		B841A4ED2B8443BA0060F797 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
 		B841A4EF2B8444100060F797 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B841A4F32B848BC50060F797 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		B841A4F52B848C4E0060F797 /* OnboardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPresenter.swift; sourceTree = "<group>"; };
 		B88778972B82E532008F7027 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		B88778982B82E532008F7027 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		B88778992B82E532008F7027 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -114,6 +118,23 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
+		B841A4F12B8474C40060F797 /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				B841A4F22B848B770060F797 /* Onboarding */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		B841A4F22B848B770060F797 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B841A4F32B848BC50060F797 /* OnboardingViewController.swift */,
+				B841A4F52B848C4E0060F797 /* OnboardingViewPresenter.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		B88778772B82E42B008F7027 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +192,7 @@
 		B8BFF1802B7FBCE6004C0E2F /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				B841A4F12B8474C40060F797 /* UILayer */,
 				B841A4DE2B842BAB0060F797 /* NavigationLayer */,
 				B88778772B82E42B008F7027 /* Resources */,
 				B8BFF1812B7FBCE6004C0E2F /* AppDelegate.swift */,
@@ -282,12 +304,14 @@
 				B841A4E62B8432280060F797 /* OnboardingCoordinator.swift in Sources */,
 				B841A4E42B8431020060F797 /* AppCoordinator.swift in Sources */,
 				B841A4EA2B84433D0060F797 /* OrderCoordinator.swift in Sources */,
+				B841A4F42B848BC50060F797 /* OnboardingViewController.swift in Sources */,
 				B8BFF1842B7FBCE6004C0E2F /* SceneDelegate.swift in Sources */,
 				B841A4EE2B8443BA0060F797 /* ProfileCoordinator.swift in Sources */,
 				B841A4EC2B84436E0060F797 /* ListCoordinator.swift in Sources */,
 				B841A4E82B8442EB0060F797 /* HomeCoordinator.swift in Sources */,
 				B841A4F02B8444100060F797 /* TabBarController.swift in Sources */,
 				B8D912722B8379DB00216492 /* UIColor+Extension.swift in Sources */,
+				B841A4F62B848C4E0060F797 /* OnboardingViewPresenter.swift in Sources */,
 				B841A4E22B842C3A0060F797 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
